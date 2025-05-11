@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Space To-Do List</title>
+  <link rel="stylesheet" href="\static\style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 To-Do List</h1>
+
+    <form id="task-form" method="POST" action="/add">
+      <input type="text" name="title" placeholder="Add a new task..." required>
+      <textarea name="description" placeholder="Task details..."></textarea>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <ul class="task-list">
+      
+    </ul>
+  </div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

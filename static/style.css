@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('/images/galaxy1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(15, 15, 30, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 0 15px #9b92ed;
+}
+
+h1 {
+  text-align: center;
+  color: #ec8ff8;
+  text-shadow: 0 0 10px #9b92ed;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f2833;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ec8ff8;
+  color: #0b0c10;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #565ac6;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-list li {
+  padding: 10px;
+  background-color: #1f2833;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
